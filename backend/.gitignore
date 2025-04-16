@@ -21,37 +21,32 @@ wheels/
 *.egg
 MANIFEST
 
-# Virtual Environment
+# 虚拟环境
 venv/
 env/
 ENV/
+
+# 日志
+logs/
+*.log
+
+# 数据库
+*.db
+*.sqlite3
+
+# 环境变量
 .env
-.venv
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
-.DS_Store
 
-# FastAPI specific
-.pytest_cache/
+# 测试
 .coverage
 htmlcov/
-.env.local
-.env.development
-.env.production
+.pytest_cache/
 
-# Logs
-logs/
-*.log
-
-# Database
-*.db
-*.sqlite3
-*.sqlite
-
-# Other
-.DS_Store
-Thumbs.db
+# 其他
+.DS_Store 

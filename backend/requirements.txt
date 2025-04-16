@@ -35,8 +35,6 @@ sqlalchemy-stubs==0.4.0
 bandit==1.7.5
 
 
-# 手势识别
-opencv-python==4.11.0.86
-mediapipe==0.10.21
+
 
 
